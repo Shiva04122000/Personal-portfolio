@@ -1,4 +1,5 @@
 import React from 'react';
+import Resume from '../assets/resume.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
@@ -8,22 +9,20 @@ const Home = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
-          SAI KUMAR
+          Shiva Epili
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
-          I'm a Full Stack Developer.
+          I'm a Frontend Developer.
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m a full-stack developer specializing in building (and occasionally
+          I’m a Frontend developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on
-          building responsive full-stack web applications.
+          building responsive Web applications.
+          {/* Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems. */}
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
-            View Work
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
+          <a href={Resume}>View CV</a>
           </button>
         </div>
       </div>

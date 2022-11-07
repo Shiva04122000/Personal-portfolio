@@ -11,19 +11,13 @@ const About = () => {
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1200px] text-[19px] w-full  px-4'style={{textAlign:"justify" , padding:'5px 30px'}}>
+          <div>
+            <p>I Have Completed B.E. in Computer Branch from CSMIT University .I Currently Live in Chembur, Mumbai. My primary focus and inspiration for my studies is Web Devolpment. I am constantly experimenting with new technologies and techniques. I am very passionate about Web Development, and strive to better myself as a developer.
+              Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.</p>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
-          </div>
+        </div>
       </div>
     </div>
   );

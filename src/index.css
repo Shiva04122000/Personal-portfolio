@@ -28,3 +28,11 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+@media screen and (max-width:1024px) {
+    .projects{
+        padding-top: 0px;
+    }
+    .skills{
+        padding-top: 0px;
+    }
+}
