@@ -11,7 +11,6 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Logo.png';
 import Resume from '../assets/resume.pdf';
-import Shiva from '../assets/Shiva.png'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -42,7 +41,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to='work' smooth={true} duration={500}>
+          <Link to='project' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
@@ -78,14 +77,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='project' smooth={true} duration={500}>
             Projects
           </Link>
         </li>
