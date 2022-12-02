@@ -17,8 +17,11 @@
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 250px;
+    /* background-position: center; */
+    /* height: 250px; */
+
+    height: 190px;
+    width: 350px;
 }
 
 .content-div:hover {
@@ -32,8 +35,14 @@
 .projects{
     padding-top: 150px;
 }
+.project-container{
+    gap: 1rem 12rem;
+}
 .skills{
     padding-top: 100px;
+}
+.project{
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media screen and (max-width:1024px) {
